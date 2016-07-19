@@ -1,4 +1,4 @@
-package yelpjoin.yelpjoin;
+package yelp.yelp;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -115,7 +115,7 @@ public class Q2 extends Configured implements Tool
 	{
 		int res = ToolRunner.run(new Configuration(), new Q2(), args);
 	    System.exit(res);
-		//hadoop jar YelpJoin-0.0.1-SNAPSHOT.jar yelpjoin.yelpjoin.Q2 -D userName="Leesha Z." /user/ass150430/Yelp_Q2 /user/ass150430/Q2_OP
+		//hadoop jar Yelp-0.0.1-SNAPSHOT.jar yelp.yelp.Q2 -D userName="Leesha Z." /user/ass150430/Yelp_Q2 /user/ass150430/Q2_OP
 	}
 
 	public int run(String[] args) throws Exception 
