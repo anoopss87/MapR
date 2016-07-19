@@ -1,4 +1,4 @@
-package yelpjoin.yelpjoin;
+package yelp.yelp;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
@@ -124,6 +124,6 @@ public class Q5
 		
 		//Wait till job completion
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
-		//hadoop jar YelpJoin-0.0.1-SNAPSHOT.jar yelpjoin.yelpjoin.Q5 /user/ass150430/Yelp_Q1 /user/ass150430/Q5_OP
+		//hadoop jar Yelp-0.0.1-SNAPSHOT.jar yelp.yelp.Q5 /user/ass150430/Yelp_Q1 /user/ass150430/Q5_OP
 	}
 }
