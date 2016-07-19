@@ -1,4 +1,4 @@
-package yelpjoin.yelpjoin;
+package yelp.yelp;
 
 import java.io.DataInput;
 import java.io.DataOutput;
